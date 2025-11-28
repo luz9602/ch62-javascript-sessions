@@ -52,5 +52,24 @@ if (isActive === true) {
 }
 
 if (isActive) {
-    console.log("El usuario está activo");
+    console.log("El usuario está activo"); 
+}
+
+// Bloque de código: 
+// Conjunto de sentencias agrupadas entre llaves { ... }
+{
+    let firtsName = "Juan";
+    let lastName = "Pérez";
+    var alias = "Juampi";
+
+    console.log(firtsName,lastName,alias); //Juan Pérez Juampi
+    { // Bloque anidado
+        let firtsName = "Sergio";
+        let lastName = "Torres";
+        var alias = "Serch";
+        var alias = "Serchmo";
+        console.log(firtsName,lastName,alias); //Sergio Torres Serch
+    }
+
+
 }
